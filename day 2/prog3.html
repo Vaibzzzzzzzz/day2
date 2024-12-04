@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background-color: #444;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Electronics</a>
+                <ul>
+                    <li><a href="#">Mobile Phones</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Cameras</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Furniture</a>
+                <ul>
+                    <li><a href="#">Sofas</a></li>
+                    <li><a href="#">Beds</a></li>
+                    <li><a href="#">Dining Tables</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Clothing</a>
+                <ul>
+                    <li><a href="#">Men's Wear</a></li>
+                    <li><a href="#">Women's Wear</a></li>
+                    <li><a href="#">Kids' Wear</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Product Catalog</h1>
+    <p>Welcome to our product catalog. Browse through our categories to find the best products for you!</p>
+
+</body>
+</html>
